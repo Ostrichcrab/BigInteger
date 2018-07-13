@@ -1,0 +1,17 @@
+//加法操作
+import java.math.BigInteger;
+import java.util.Scanner;
+public class Bigshu {
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()) {
+			String str1 = sc.nextLine();
+			String str2 = sc.nextLine();
+			BigInteger x1 = new BigInteger(str1);
+			BigInteger x2 = new BigInteger(str2);
+			System.out.println(x1.add(x2));
+		}
+		sc.close();
+	}
+}
